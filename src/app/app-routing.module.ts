@@ -28,6 +28,7 @@ const routes: Routes =[
     {
         //Cual quier otro path que no sea los de alla arriba
         path:'**',
+        //Con esto redirecciona a  path: '',
         redirectTo: ''
     }
 ];
